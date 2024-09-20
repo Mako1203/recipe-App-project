@@ -52,9 +52,6 @@ if (isError) {
                      </p>
                      <img src={Recipe.imageURL} alt="name"/>
                </div>
-               <Link to={"/Italian"}> 
-                  <button class="category-btn">{Recipe.category}</button>
-               </Link>
              </div>  
             )}
             </section>      
